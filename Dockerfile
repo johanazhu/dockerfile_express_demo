@@ -5,10 +5,10 @@ FROM johanbo/ubuntu_node:v1
 # MAINTAINER johanbo <t511069160@qq.com>
 
 # 复制文件到容器
-ADD . /home/johan/www/express_server
+ADD . /www/express_server
 
 # 进入工作目录
-WORKDIR /home/johan/www/express_server
+WORKDIR /www/express_server
 
 # 安装项目依赖包
 RUN npm install
