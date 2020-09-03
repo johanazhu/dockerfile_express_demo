@@ -3,6 +3,7 @@ FROM johanbo/ubuntu_node:v1
 
 # MAINTAINER
 # MAINTAINER johanbo <t511069160@qq.com>
+LABEL version="1.0.0" by="johanbo" 
 
 # 复制文件到容器
 ADD . /www/express_server
